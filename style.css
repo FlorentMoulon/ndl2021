@@ -1,4 +1,3 @@
-
 body {
     background-color: rgb(255, 255, 255);
     color: rgb(225, 255, 220);
@@ -20,4 +19,7 @@ div #point {
     padding: 0px;
 }
 
-
+#Banniere {
+    background-attachment: scroll;
+    position: absolute;
+}
