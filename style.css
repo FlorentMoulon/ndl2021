@@ -4,8 +4,6 @@ body {
     color: rgb(225, 255, 220);
     margin: 0px;
     padding: 4%;
-    display: flex;
-    flex-direction: row;
 }
 
 section div {
@@ -19,5 +17,13 @@ div #point {
     margin: 0px;
     padding: 0px;
 }
+
+#liens {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
 
 
