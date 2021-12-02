@@ -3,8 +3,6 @@ body {
     color: rgb(225, 255, 220);
     margin: 0px;
     padding: 4%;
-    display: flex;
-    flex-direction: row;
 }
 
 section div {
@@ -19,7 +17,19 @@ div #point {
     padding: 0px;
 }
 
+<<<<<<< HEAD
 #Banniere {
     background-attachment: scroll;
     position: absolute;
 }
+=======
+#liens {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+>>>>>>> master
