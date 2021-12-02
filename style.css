@@ -1,4 +1,11 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(225, 255, 220);
+    margin: 0px;
+    padding: 4%;
+}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 body {
     background-color: rgb(20, 20, 40);
@@ -7,6 +14,8 @@ body {
     padding: 4%;
 }
 
+=======
+>>>>>>> e7687d16de2bcef0f37c3cbc1a41c3a6f5f6cd32
 section div {
     background-color: rgb(60, 90, 110);
     color: lightgray;
@@ -19,6 +28,7 @@ div #point {
     padding: 0px;
 }
 
+<<<<<<< HEAD
 
 
 
@@ -315,3 +325,32 @@ footer nav ul li a {
         color: 'black';
     }
 >>>>>>> 490621dbf00a51b23c064f7c77604105bc3ddcb3
+=======
+#Banniere {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+#Title {
+    margin-top: 20vw;
+}
+
+#liens {
+    display: flex;
+    flex-direction: row;
+}
+
+.liensIndividuels {
+    padding: 5px;
+    margin: 5px;
+}
+
+.citation {
+    color: 'black';
+}
+>>>>>>> e7687d16de2bcef0f37c3cbc1a41c3a6f5f6cd32
