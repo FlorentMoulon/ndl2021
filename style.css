@@ -11,6 +11,7 @@ section div {
     color: lightgray;
     margin: 2px;
     padding: 2px;
+    flex-direction: row;
 }
 
 div #point {
