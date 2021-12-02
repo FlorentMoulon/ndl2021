@@ -29,4 +29,18 @@ div #point {
 #liens {
     display: flex;
     flex-direction: row;
+<<<<<<< HEAD
 }
+=======
+}
+
+.liensIndividuels {
+    padding: 5px;
+    margin: 5px;
+}
+
+
+
+
+
+>>>>>>> master
