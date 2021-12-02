@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.boxPuce{
+    display: flex;
+    flex-direction: column;
+}
+
+#puceSauveteur{
+    color: black;
+}
+
+#boxPuceSauveteur{
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+
+    background-color: rgb(171, 177, 177);
+}
