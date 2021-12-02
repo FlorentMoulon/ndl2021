@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 nav{
     display: flex;
     flex-direction: row;
@@ -27,3 +28,46 @@ a{
 
     background-color: rgb(171, 177, 177);
 }
+=======
+    body {
+        background-color: rgb(255, 255, 255);
+        color: rgb(225, 255, 220);
+        margin: 0px;
+        padding: 4%;
+    }
+    
+    section div {
+        background-color: rgb(60, 90, 110);
+        color: lightgray;
+        margin: 2px;
+        padding: 2px;
+    }
+    
+    div #point {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    #Banniere {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+    }
+    
+    #liens {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .liensIndividuels {
+        padding: 5px;
+        margin: 5px;
+    }
+    
+    .citation {
+        color: 'black';
+    }
+>>>>>>> master
