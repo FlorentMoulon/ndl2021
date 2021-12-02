@@ -19,12 +19,16 @@
     
     #Banniere {
         position: absolute;
-        bottom: 0;
+        top: 0;
         left: 0;
         width: 100%;
         background-repeat: no-repeat;
         background-position: top center;
         background-size: cover;
+    }
+    
+    #Title {
+        margin-top: 300px;
     }
     
     #liens {
