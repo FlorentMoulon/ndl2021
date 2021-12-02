@@ -1,10 +1,12 @@
-const puceSauveteur = document.querySelector('#puceSauveteur');
-const boxPuceSauveteur = document.querySelector('#boxPuceSauveteur');
+let nbc = 0;
 
-/*************************************************************************/
+const bouton = document.querySelector('#Banniere');
 
-puceSauveteur.addEventListener('mouseover', (e)=>{
-    puceSauveteur.style.color = "rgb(15, 17, 87)";
-
-    boxPuceSauveteur.style.visibility = "visible";
+bouton.addEventListener('mousedown', (e)=>{
+    e.stopPropagation();
+    nbc++;
+    if(nbc >= 10)
+    {
+        window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+    }
 })
