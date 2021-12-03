@@ -8,6 +8,11 @@ bouton.addEventListener('mousedown', (e)=>{
     nbc++;
     if(nbc >= 10)
     {
-        placeholder.innerHTML = "<video src=\"Rickroll.mp4\" autoplay=\"true\"></video>";
+        placeholder.innerHTML = "<video src=\"Rickroll.mp4\" autoplay=\"true\" id=\"video\"></video>";
+        const video = document.querySelector('video');
+        video.addEventListener('ended', (e)=>{
+            placeholder.innerHTML="";
+        })
+        nbc = 0;
     }
 })
