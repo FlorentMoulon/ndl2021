@@ -147,6 +147,10 @@ html>body #menu li ul ul{
     margin: 0px;
     padding: 0px;
 }
+.placeholder {
+    margin-right : 50%;
+    transform:translateX(50%);
+}
 #Banniere {
     margin : 0px;
     display: block;
