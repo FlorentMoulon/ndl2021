@@ -1,6 +1,6 @@
 let nbc = 0;
 
-const bouton = document.querySelector('#Banniere');
+const bouton = document.querySelector('.easterEgg');
 const placeholder = document.querySelector('.placeholder');
 
 bouton.addEventListener('mousedown', (e)=>{

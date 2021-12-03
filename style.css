@@ -9,6 +9,15 @@ body {
 
     font-family : DejaVu Sans Mono;
     font-size : 1em; 
+
+    background-image: url("Banniere.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.bg{
+    background-color: #39455b;
 }
 
 p {
@@ -118,11 +127,15 @@ marquee{
     margin: 0px;
     padding: 0px;
 }
+.placeholder{
+    text-align: center;
+}
+
 #Banniere {
     margin : 0px;
     display: block;
     height: 140px;
-    background-attachment: fixed;
+    visibility: hidden;
 }
 #pagetop {
     position:sticky;
@@ -178,9 +191,6 @@ div #point {
     left: 0;
     width: 100%;
     height: 20vw;
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
 }
 
 #Title {
