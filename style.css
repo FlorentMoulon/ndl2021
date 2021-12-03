@@ -122,6 +122,7 @@ marquee{
     margin : 0px;
     display: block;
     height: 140px;
+    background-attachment: fixed;
 }
 #pagetop {
     position:sticky;
